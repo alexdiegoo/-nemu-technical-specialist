@@ -7,6 +7,7 @@ O cliente relatou ter o pixel da Nemu instalado e configurado para o padrão “
 
 Ao consultar o banco de dados, percebemos que os dados de UTMs não estão registrados no padrão para o funcionamento correto.
 
+![image](https://github.com/alexdiegoo/-nemu-technical-specialist/assets/66486335/04c9a2b5-6996-450f-955a-8e583e1394c0)
 
 
 A coluna “content” que faz referência aos dados de anúncios, precisa estar no seguinte padrão:
@@ -19,7 +20,7 @@ term:  Id da sessão do usuário (gerado pelo pixel da Nemu) <br />
 
 Exemplo de UTM content válida:
 
-Criativo 3|120209233505950769|nemu_yf1Dy6MWKc
+Criativo 3|12121212121212|nemu_yf1Dy6MWKc
 
 
 Sua missão é analisar o código fonte responsável por salvar os dados do Vega, encontrar o problema e propor uma solução para a normalização dos dados a serem registrados no banco de dados.
